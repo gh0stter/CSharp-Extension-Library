@@ -66,6 +66,7 @@ Enumerable.Range(1, 20).Shuffle();
 
 ## [.NET Platforms Support](https://docs.microsoft.com/en-us/dotnet/articles/standard/library ".NET Platforms Support")
 You can see the complete set of .NET runtimes that support the .NET Standard Library.
+
 | Platform Name              | Alias       | 1.0 | 1.1 | 1.2   | 1.3 | 1.4   | 1.5   | 1.6   | 2.0   |
 |----------------------------|-------------|-----|-----|-------|-----|-------|-------|-------|-------|
 | .NET Standard              | netstandard | →   | →   | →     | →   | →     | →     | 1.0   | 2.0   |

@@ -1,8 +1,8 @@
 language: csharp
-solution: ".\Extension Library\Extension Library.sln"
+solution: ".\Extension\\ Library\Extension\\ Library.sln"
 mono: none
 install:
-  - nuget restore ".\Extension Library\Extension Library.sln"
+  - nuget restore ".\Extension\\ Library\Extension\\ Library.sln"
   - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
 # script:
 #   - xbuild /p:Configuration=Release '.\Extension Library\Extension Library.sln'

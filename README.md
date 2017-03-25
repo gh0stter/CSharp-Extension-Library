@@ -1,7 +1,10 @@
 # CSharp Extension Library
 A C# .Net Standard extension library.
-This library includes a System.String extension, System.Array extension and System.Collections.Generic.IEnumerable extension.
-It is a .Net Standard 1.6 library and covered with unit tests
+Currently it provides extension methods for the following types
+* System.String
+* System.Array 
+* System.Collections.Generic.IEnumerable
+This is a .Net Standard 1.6 library and covered with unit tests
 
 ## System.String extensions
 

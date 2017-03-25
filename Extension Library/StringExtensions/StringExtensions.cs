@@ -20,10 +20,18 @@ namespace Extensions
             {
                 throw new ArgumentNullException(nameof(source), "source or predicate is null.");
             }
+            if (startIndex < 0 || startIndex > source.Length - 1)
+            {
+                throw new ArgumentOutOfRangeException(nameof(startIndex));
+            }
             //Keep this for negative end support
             if (endIndex < 0)
             {
                 endIndex = source.Length + endIndex;
+            }
+            if (endIndex < 0 || endIndex < startIndex || endIndex > source.Length)
+            {
+                throw new ArgumentOutOfRangeException(nameof(endIndex));
             }
             //Calculate length
             int length = endIndex - startIndex;
@@ -56,7 +64,7 @@ namespace Extensions
         /// <param name="source">The source string</param>
         /// <param name="exclusionLabel">The label(s) to exclude from source string. Labels separate by |</param>
         /// <returns>A string excluding the exclusionLabel, or System.String.Empty if exclusionLabel equal to source</returns>
-        public static string RemoveLable(this string source, string exclusionLabel)
+        public static string RemoveLabel(this string source, string exclusionLabel)
         {
             if (source == null)
             {

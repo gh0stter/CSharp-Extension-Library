@@ -4,6 +4,7 @@ This library includes a System.String extension, System.Array extension and Syst
 It is a .Net Standard 1.6 library and covered with unit tests
 
 ##System.String extensions
+
 ####Slice(int32, int32)
 Retrieves a slice from this instance. The substring starts at a specifiedcharacter position and continues to the specified ending index. This inclusive for start index, exclusive for end index.
 
@@ -30,6 +31,7 @@ Usage:
 ```
 
 ##System.Array extensions
+
 ####JoinArrays()
 Join multiple arrays and retuen a new array with elements from all arrays.
 
@@ -53,6 +55,7 @@ a1.JoinArrays(a2, a3);
 ```
 
 ##System.Collections.Generic.IEnumerable extension
+
 ####Shuffle()
 Shuffling an sequence, randomizes its element order. It is using Fisher-Yates Shuffle algorithm.
 

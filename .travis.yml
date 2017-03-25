@@ -5,9 +5,9 @@ install:
   - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
 script:
   - xbuild /p:Configuration=Release "./Extension Library/Extension Library.sln"
-  - mono ./testrunner/xunit.runners.1.9.2/tools/xunit.console.clr4.exe "./Extension Library/ArrayExtensionTests/bin/Release/MyProject.Tests.dll"
-  - mono ./testrunner/xunit.runners.1.9.2/tools/xunit.console.clr4.exe ./Extension Library/EnumerableExtensionTests/bin/Release/MyProject.Tests.dll
-  - mono ./testrunner/xunit.runners.1.9.2/tools/xunit.console.clr4.exe ./Extension Library/StringExtensionTests/bin/Release/MyProject.Tests.dll
+  - mono ./testrunner/xunit.runners.1.9.2/tools/xunit.console.clr4.exe "./Extension Library/ArrayExtensionTests/bin/Release/netcoreapp1.1/ArrayExtensionTests.dll"
+  - mono ./testrunner/xunit.runners.1.9.2/tools/xunit.console.clr4.exe ./Extension Library/EnumerableExtensionTests/bin/Release/netcoreapp1.1/EnumerableExtensionTests.dll
+  - mono ./testrunner/xunit.runners.1.9.2/tools/xunit.console.clr4.exe ./Extension Library/StringExtensionTests/bin/Release/netcoreapp1.1/StringExtensionTests.dll
 branches:
 only:
   - master

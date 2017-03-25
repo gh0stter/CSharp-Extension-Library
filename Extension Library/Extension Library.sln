@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions", "StringExtensions\Extensions.csproj", "{3B85D979-A087-4A66-9F3C-91793B18ED90}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions", "Extensions\Extensions.csproj", "{3B85D979-A087-4A66-9F3C-91793B18ED90}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringExtensionTests", "StringExtensionTests\StringExtensionTests.csproj", "{19C8364C-C1C7-4B59-B044-F307DCFEEEFD}"
 EndProject

@@ -1,5 +1,6 @@
 language: csharp
 solution: "./Extension Library/Extension Library.sln"
+dotnet: 1.0.1
 install:
   - nuget restore "./Extension Library/Extension Library.sln"
   - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner

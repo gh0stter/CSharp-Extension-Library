@@ -4,6 +4,7 @@ dotnet: 1.0.1
 mono: latest
 dist: trusty
 sudo: required
+target: "Clean;Build"
 # install:
 #   - nuget restore "./Extension Library/Extension Library.sln"
 #   - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner

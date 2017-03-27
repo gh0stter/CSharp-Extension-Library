@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <Import Project="..\..\packages\xunit.core.2.2.0\build\uap10.0\xunit.core.props" Condition="Exists('..\..\packages\xunit.core.2.2.0\build\uap10.0\xunit.core.props')" />
-  <PropertyGroup>    
+  <Import Project="..\packages\xunit.core.2.2.0\build\uap10.0\xunit.core.props" Condition="Exists('..\packages\xunit.core.2.2.0\build\uap10.0\xunit.core.props')" />
+  <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
   </PropertyGroup>
 
@@ -20,8 +20,8 @@
   </ItemGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them. For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\..\packages\xunit.core.2.2.0\build\uap10.0\xunit.core.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\xunit.core.2.2.0\build\uap10.0\xunit.core.props'))" />
-   </Target>
+    <Error Condition="!Exists('..\packages\xunit.core.2.2.0\build\uap10.0\xunit.core.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.core.2.2.0\build\uap10.0\xunit.core.props'))" />
+  </Target>
 </Project>

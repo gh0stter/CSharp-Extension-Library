@@ -1,7 +1,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/ju1v06dc9d2gh7h1?svg=true)](https://ci.appveyor.com/project/gh0stter/csharp-extension-library)
 [![MIT license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/gh0stter/CSharp-Extension-Library/blob/master/LICENSE)
 
-# CSharp Extension Library
+# C# Extension Library
 A C# .Net Standard extension library.
 Currently it provides extension methods for the following types:
 
